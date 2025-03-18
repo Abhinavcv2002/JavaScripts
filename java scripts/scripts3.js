@@ -36,7 +36,40 @@
 
 //-- find method --//
 
-        const data = a.find((item)=>item>4)
+        // const data = a.find((item)=>item>4)
 
+        // console.log(data);
+
+//-- this method --//
+
+        const data ={
+                fname:"aswa",
+                lname:"vv",
+                fullname: function (){
+                        console.log(this.fname,this.lname);
+                        
+                }
+        }
         console.log(data);
+        data.fullname()
         
+//-- this method  1.(call type) --//
+
+        // const nameobj ={
+        //         fname:"abhi",
+        //         age:21,
+        // }
+
+        // const data ={
+        //         fname:"aswa",
+        //         lname:"vv",
+        //         fullname: function (){
+        //                 console.log(this.fname);
+                        
+        //         }
+        // }
+        // console.log(data);
+        // data.fullname.call(nameobj)
+
+//-- this method  2.() --//
+
