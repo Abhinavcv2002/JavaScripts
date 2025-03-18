@@ -1,4 +1,6 @@
-a = [1,2,3,4,5,6,7,8]
+//-- Build in methods --//
+    
+    a = [1,2,3,4,5,6,7,8]
 
     // a.foreach((item)=>console.log(item))
     // const data = a.map((item)=>item*10)
@@ -31,3 +33,10 @@ a = [1,2,3,4,5,6,7,8]
 
         // data(10,2,display)
         // data(112,2,display)
+
+//-- find method --//
+
+        const data = a.find((item)=>item>4)
+
+        console.log(data);
+        
