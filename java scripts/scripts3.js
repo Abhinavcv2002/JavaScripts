@@ -42,18 +42,18 @@
 
 //-- this method --//
 
-        const data ={
-                fname:"aswa",
-                lname:"vv",
-                fullname: function (){
-                        console.log(this.fname,this.lname);
+        // const data ={
+        //         fname:"aswa",
+        //         lname:"vv",
+        //         fullname: function (){
+        //                 console.log(this.fname,this.lname);
                         
-                }
-        }
-        console.log(data);
-        data.fullname()
+        //         }
+        // }
+        // console.log(data);
+        // data.fullname()
         
-//-- this method  1.(call type) --//
+//-- this method  1.(call type) --// call return value
 
         // const nameobj ={
         //         fname:"abhi",
@@ -71,5 +71,52 @@
         // console.log(data);
         // data.fullname.call(nameobj)
 
-//-- this method  2.() --//
+//--age adding Method --//
 
+        // const nameobj ={
+        //         fname:"abhi",
+        //         age:21,
+        // }
+
+        // const data ={
+        //         fname:"aswa",
+        //         lname:"vv",
+        //         fullname: function (age){
+        //                 console.log(this.fname,age);
+                        
+        //         }
+        // }
+        // console.log(data);
+        // data.fullname.call(nameobj,45)
+
+//-- this method  2.(blind type) --// call return function
+
+        // const nameobj ={
+        //         fname:"abhi",
+        //         age:21,
+        // }
+
+        // const data ={
+        //         fname:"aswa",
+        //         lname:"vv",
+        //         fullname : function (age){
+        //                 console.log(this.fname,age);
+                        
+        //         }
+        // }
+        // console.log(data);
+        // const d1 = data.fullname.blind(nameobj,45)
+        // d1()
+        
+//-- this method  3.(apply type) --// 
+  
+        // const person = {
+        //         name: "john"
+        // }
+
+        // function data(job,com){
+        //         console.log(job,com,this.name);
+                
+        // }
+        // data.apply(person,["Developer","Google"])
+        
